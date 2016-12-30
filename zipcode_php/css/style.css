@@ -1,0 +1,42 @@
+body{
+	margin-top:100px;
+	font-family: 'Comfortaa', cursive;
+}
+.container{
+	margin: 20px auto;
+	width:400px;
+	
+}
+form{
+	background-color:#240B3B;
+	padding:40px;
+}
+
+input[type="text"],input[type="text"]
+{
+	outline: none;
+	padding: 10px;
+	display: block;
+	width: 300px;
+	border-radius: 3px;
+	border: 1px solid #EEE;
+	margin: 20px auto;
+}
+input[type="submit"]
+{
+	padding: 10px;
+	color: #FFF;
+	background: #0098CB;
+	width: 320px;
+	margin: 20px auto;
+	border: 0px;
+	border-radius: 3px;
+	cursor:position;
+}
+input[type="submit"]:hover
+{
+	background: #00B8EB;
+}
+::-webkit-input-placeholder {
+   font-style: italic;
+}
